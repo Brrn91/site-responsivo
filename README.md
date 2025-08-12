@@ -26,7 +26,7 @@ O site foi desenvolvido para se adaptar a:
 
 ## 🔗 Acesse o Projeto
 
-[🔍 Clique aqui para ver online](https://brrn91.github.io/site-responsivo-cursoemvideo/)
+[🔍 Clique aqui para ver online](https://brrn91.github.io/site-responsivo/)
 
 ---
 
