@@ -24,10 +24,6 @@ O site foi desenvolvido para se adaptar a:
 - **Tablets**
 - **Desktops**
 
-## 📸 Demonstração
-
-![Prévia do Projeto](coloque_aqui_o_caminho_da_imagem.png)
-
 ## 🔗 Acesse o Projeto
 
 [🔍 Clique aqui para ver online](https://brrn91.github.io/site-responsivo-cursoemvideo/)
