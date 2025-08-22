@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media (max-widdth: 600px) @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 @font-face {
   font-family: Android;
@@ -42,38 +42,38 @@ header {
   padding-top: 40px;
 }
 
-header > h1 {
+header>h1 {
   color: white;
   font-family: var(--fonte-destaque);
-  font-size: 2em;
+  font-size: 3em;
   font-weight: normal;
   padding-bottom: 30px;
-  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.250);
 }
 
-header > p {
+header>p {
   font-family: var(--fonte-padrao);
-  font-size: 1em;
+  font-size: 1.2em;
   max-width: 600px;
   color: white;
   padding-right: 10px;
   padding-left: 10px;
   margin: auto;
   padding-bottom: 30px;
-  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.250);
 }
 
 nav {
   background-color: var(--cor5);
   padding: 10px;
-  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.190);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
 }
 
-nav > a {
+nav>a {
   color: var(--cor1);
   padding: 10px;
   border-radius: 5px;
@@ -82,7 +82,7 @@ nav > a {
   transition-duration: 0.25s;
 }
 
-nav > a:hover {
+nav>a:hover {
   background-color: var(--cor3);
   color: var(--cor5);
 }
@@ -94,7 +94,7 @@ main {
   margin-bottom: 30px;
   background-color: white;
   padding: 20px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.41);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.410);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -158,7 +158,7 @@ div.video {
   position: relative;
 }
 
-div.video > iframe {
+div.video>iframe {
   position: absolute;
   top: 5%;
   left: 5%;
@@ -170,10 +170,10 @@ aside {
   background-color: var(--cor1);
   padding: 10px;
   border-radius: 10px;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.28);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.280);
 }
 
-aside > h3 {
+aside>h3 {
   background-color: var(--cor4);
   color: white;
   padding: 10px;
@@ -181,7 +181,7 @@ aside > h3 {
   border-radius: 10px 10px 0px 0px;
 }
 
-aside > ul {
+aside>ul {
   list-style-type: '\2714\00A0\00A0';
   list-style-position: inside;
   columns: 2;
@@ -208,4 +208,40 @@ footer a:hover {
 
 footer p {
   margin: 5px 0;
+}
+
+/* ====== MEDIA QUERIES PARA RESPONSIVIDADE ====== */
+@media (max-width: 600px) {
+  header>h1 {
+    font-size: 2em;
+  }
+
+  header>p {
+    font-size: 1em;
+  }
+
+  main h1 {
+    font-size: 1.5em;
+  }
+
+  main h2 {
+    font-size: 1.1em;
+  }
+
+  main p {
+    font-size: 0.95em;
+    text-indent: 15px;
+    line-height: 1.6em;
+  }
+}
+
+@media (max-width: 500px) {
+  aside>ul {
+    columns: 1;
+  }
+
+  footer {
+    font-size: 0.7em;
+    padding: 10px;
+  }
 }
